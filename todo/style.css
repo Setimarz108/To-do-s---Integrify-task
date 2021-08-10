@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-family: 'Titan One', cursive;
+}
+li{  
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(249, 252, 252);
+    font-family:  cursive;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: -3px 5px 20px -2px rgba(158, 154, 154, 0.66);
+    -webkit-box-shadow: -3px 5px 20px -2px rgba(121, 121, 121, 0.66);
+    -moz-box-shadow: -3px 5px 20px -2px rgba(68, 67, 67, 0.66);
+}
+
+.main{
+    font-family: 'Titan One', cursive;
+    width: 600px !important;
+
+}
+button{
+   
+   margin-left: 600px;
+   font-family:  cursive !important;
+    }
+
+
+.containeruno{
+
+    margin-top: 40px;
+
+}
+    .azul{
+        font-family: 'Titan One', cursive !important;
+        margin-top: 100px;
+        width:150px ;
+        height:50px ;
+    }
+
+.rojo{
+    font-family: 'Titan One', cursive !important;
+    width: 150px;
+    margin-top: 10px ;
+    height:50px ;
+}
+
+.close {
+      cursor: pointer;
+      float: right;
+      text-align: center;
+      border-radius: 10%;
+      background: rgb(234, 243, 238);
+      width:25px;
+      height: 28px;
+          
+  }
+
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+.heading{
+     display: flex;
+     align-content: center;
+     justify-content: center;
+
+}
+.containeruno{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.container{
+    
+    font-family: 'Titan One', cursive;
+    margin-top: 30px;
+}
+.barra{
+    
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-left: khaki;
+    box-shadow: -3px 5px 20px -2px rgba(158, 154, 154, 0.66);
+    -webkit-box-shadow: -3px 5px 20px -2px rgba(0,0,0,0.66);
+    -moz-box-shadow: -3px 5px 20px -2px rgba(0,0,0,0.66);
+}
+
+
+.row{
+    width: 500px;
+}
+
+.uno{
+    margin-top: 100px;   
+  
+}
+.titulo{
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: 'Monoton', cursive !important;
+    color: rgb(0, 0, 0);
+
+}
+/*#lista  {
+    
+  }*/
+
+  #lista li{
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  ul li.done{
+      text-decoration: line-through;
+      background-color: rgb(250, 189, 174);
+
+  }
+
+
+  ul li:hover{
+
+    background-color: rgb(170, 218, 219);
+
+  }
+
+  /*close button*/
+ 
+  
+  #nuevoItem{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
